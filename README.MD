@@ -1,4 +1,4 @@
-# Predict tomorrows temperature using machine learning
+# Predict Tomorrow's Temperature Using Machine Learning
 
 Welcome to my very simple prediction app! This project is designed to predict tomorrow's high and low temperatures using L2 regularization (also known as Ridge Regression). The app is built using Python and Flask, providing an easy-to-use web interface for temperature prediction.
 
