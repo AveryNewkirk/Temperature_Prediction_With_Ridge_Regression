@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Predict Tommorrows temperature
+    </h1>
+
+    <form action= "predict" method="POST">
+        <div class="row">
+          <div class="col">
+            <input type="number" max = "130" min="-100" name="high" class="form-control" placeholder="Todays High Temp ">
+          </div>
+          <div class="col">
+            <input type="number" name = "low"  max = "130" min="-100" class="form-control" placeholder="Todays Low Temp">
+          </div>
+          <button>Submit</button>
+        </div>
+      </form>
+</body>
+</html>
