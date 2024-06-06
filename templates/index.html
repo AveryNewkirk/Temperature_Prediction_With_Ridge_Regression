@@ -7,18 +7,17 @@
 </head>
 <body>
     <h1>
-        Predict Tommorrows temperature
+        Current high: {{curr_temp_max}} 
+        Current low: {{curr_temp_min}}
     </h1>
+
+    <h2>
+      
+    </h2>
 
     <form action= "predict" method="POST">
         <div class="row">
-          <div class="col">
-            <input type="number" max = "130" min="-100" name="high" class="form-control" placeholder="Todays High Temp ">
-          </div>
-          <div class="col">
-            <input type="number" name = "low"  max = "130" min="-100" class="form-control" placeholder="Todays Low Temp">
-          </div>
-          <button>Submit</button>
+          <button>Predict</button>
         </div>
       </form>
 </body>
