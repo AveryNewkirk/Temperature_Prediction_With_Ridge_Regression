@@ -71,7 +71,7 @@ class Weather_L2_Regularization():
     today['month_day_min'] = today['month_min'] / today_temp_min
     today['max_min'] = today_temp_max / today_temp_min
 
-
+                                 
     features = today[self.features].values.reshape(1,-1)
 
     pred_max = self.reg_max.predict(features)[0]

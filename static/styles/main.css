@@ -1,0 +1,68 @@
+
+
+body{
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: sans-serif;
+    position: relative;
+    text-align: center;
+	text-shadow: 0px 0px 10px rgba(255,255,255,0.6), 0px 0px 30px rgba(255,255,255,0.4), 0px 0px 50px rgba(255,255,255,0.3), 0px 0px 180px rgba(255,255,255,0.3);
+    margin: 0;
+    padding: 0;
+
+}
+
+button{
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 12px; /* Makes the button rounded */
+    background-color: #007bff; /* Default background color */
+    color: white; /* Text color */
+    font-size: 16px; /* Font size */
+    font-family: sans-serif; /* Font family */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition for background color and transform */
+
+}
+
+
+/* Button hover state */
+button:hover {
+    background-color: #5f6265; /* Change background color on hover */
+}
+
+/* Button active state */
+button:active {
+    background-color: #496b5e; /* Change background color when the button is pressed */
+    transform: scale(0.98); /* Slightly shrink the button when pressed */
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+  }
+
+.cold{
+    background-image: url("/static/below_30.jpg");
+}
+
+.chilly{
+
+    background-image: url("/static/31_50.jpg");
+}
+
+
+.warm{
+    background-image: url("/static/51_70.jpg");
+
+}
+
+
+.hot{
+    background-image: url("/static/71-90.jpg");
+
+}
