@@ -11,7 +11,7 @@ app.secret_key = 'super secure'
 
 
 
-@app.route('/',methods =['POST'])
+@app.route('/',methods =['POST','GET'])
 def index():
     
     #only allow 1 api call per session
