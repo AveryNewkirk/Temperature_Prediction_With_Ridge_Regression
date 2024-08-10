@@ -2,6 +2,8 @@
 
 Welcome to my very simple prediction app! This project is designed to predict tomorrow's high and low temperatures using L2 regularization (also known as Ridge Regression). The app is built using Python and Flask, providing an easy-to-use web interface for temperature prediction.
 
+[Link to App](https://temperature-prediction-with-ridge.onrender.com)
+
 ## Features
 - **Predict Tomorrow's Temperature**: Input today's weather details and get predictions for tomorrow's high and low temperatures.
 - **Historical Data**: Uses historical weather data from Charlotte Douglass International airport going back to 1970.
