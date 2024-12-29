@@ -2,7 +2,9 @@
 
 Welcome to my very simple prediction app! This project is designed to predict tomorrow's high and low temperatures using L2 regularization (also known as Ridge Regression). The app is built using Python and Flask, providing an easy-to-use web interface for temperature prediction.
 
-[Link to App](https://temperature-prediction-with-ridge.onrender.com)
+[Link to App](https://temperature-prediction-with-ridge.onrender.com) 
+
+[Link to Analysis](https://github.com/AveryNewkirk/Temperature_Prediction_With_Ridge_Regression/blob/main/CD_Weather_Cleaning_and_Analysis.ipynb)
 
 ## Features
 - **Predict Tomorrow's Temperature**: Input today's weather details and get predictions for tomorrow's high and low temperatures.
